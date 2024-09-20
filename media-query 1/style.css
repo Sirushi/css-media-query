@@ -1,0 +1,22 @@
+/* basic style*/
+body {
+    background-color: #555;
+}
+
+/*mobile responsiveness styles for 640px screen size*/
+@media screen and (max-width: 640px) {
+    body {
+        background-color: brown;
+    }
+}
+
+/*mobile responsiveness styles for 460px screen size*/
+@media screen and (max-width: 460px) {
+    body {
+        background-color: blueviolet;
+    }
+
+    h1 {
+        color: #fff;
+    }
+}
